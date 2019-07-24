@@ -19,6 +19,7 @@ public class MainUtil {
 	 * - Rank -> Value is a player
 	 * @return String
 	 */
+	
 	public static String replacePlaceholders(String input, Object value) {
 		if (input.contains("%player%")) {
 			Player p = (Player) value;
